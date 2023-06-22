@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajendra's Portfolio Website</title>
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ==================== font awesome ==================== -->
+    <script
+      src="https://kit.fontawesome.com/7203184e03.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ==================== Header ==================== -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./images/logo.png" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Rajendra</span><br />Thapa From Nepal.</h1>
+          <a href="./Rajendra_Thapa__cv.pdf" download class="download-btn">Download CV</a>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== About ==================== -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/user2.JPG" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-description">
+              Hello, I am Rajendra Thapa, currently a student of Bsc. CSIT at
+              Madan Bhandari Memorial College under TU. I have been following
+              this pathway for a while now and have also completed a few courses
+              as well as projects during this period of time. I am a highly
+              motivated and detail-oriented individual with a passion for
+              learning new methods and technological advancements.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI Design</span><br />Designing Web/App Interfaces
+                </li>
+                <li>
+                  <span>Front End Development</span><br />Developing Front End
+                  of Web Applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2018-Present</span><br />BscCSIT from MBMC Kathmandu
+                </li>
+                <li><span>2015-2018</span><br />+2 from LIC Kathmandu</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Services ==================== -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI Design</h2>
+            <p class="service-desc">
+              UI design involves creating visually appealing and interactive
+              elements such as buttons, menus, forms, and other interface
+              components. I will aim to provide a consistent and visually
+              pleasing interface that enhances the user's interaction with the
+              website.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front End Web Development</h2>
+            <p class="service-desc">
+              It involves translating the designs and mockups created by web
+              designers into functional web pages. I will write HTML code to
+              structure the content, CSS code to style and layout the elements,
+              and JavaScript code to add interactivity and functionality to the
+              website.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Portfolio ==================== -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/work (2).png" alt="" />
+            <div class="layer">
+              <h3>Restaurant Website</h3>
+              <p>
+                An online platform to showcase the restaurant's offerings,
+                provide information to potential customers, and facilitate
+                online reservations or orders.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work (3).png" alt="" />
+            <div class="layer">
+              <h3>Travel Website</h3>
+              <p>
+                An online platform that provides information, resources, and
+                booking services related to travel destinations, accommodations,
+                flights, activities, and more.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work (1).png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping Website</h3>
+              <p>
+                It is an online platform that enables users to browse and
+                purchase products or services related to farm. It also provide
+                information about farm methods,tools and products.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ==================== contact ==================== -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="contact-desc-part1">
+              <div class="contact-desc1"><i class="fa-solid fa-envelope"></i>
+                <p>rajendrathapacr7@gmail.com</p></div>
+              <div class="contact-desc2"><i class="fa-solid fa-phone"></i>
+                <p></i>9860375570</p></div>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/rajendra-thapa-544164167/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./Rajendra_Thapa__cv.pdf" download class="download-btn">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <p>Copyright &copy; 2023 Rajendra.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      console.log(tablinks);
+      console.log(tabcontents);
+
+      function openTab(tabName) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu=document.getElementById("sidemenu");
+      function closeMenu(){
+        sidemenu.style.right="-200px";
+      }
+      function openMenu(){
+        sidemenu.style.right="0";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwOxrR5sZbxr1JzQAW3pYqvm4oVu0E2wv20cnJR1Yfc6oSLktuX5ZY2-XBpdsVKqqSj/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message Sent Successfully."
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
