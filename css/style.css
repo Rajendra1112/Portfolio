@@ -426,7 +426,7 @@ nav .fa-solid {
 }
 @media only screen and (max-width: 600px) {
   #header {
-    background: url("../images/mobilebg2.png");
+    background: url("../images/portrait.png");
     height: 70vh;
   }
 
